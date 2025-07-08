@@ -14,9 +14,9 @@ class student:
             self.total = sum(self.marks)
 
     def display(self):
-        print(f"\n Name:",self.name)
-        print(self.marks)
-        print(self.total)        
+        print("\n Name: ",self.name)
+        print("Marks: ",self.marks)
+        print("Total: ",self.total)        
 
 s=student()
 s.get_data()
